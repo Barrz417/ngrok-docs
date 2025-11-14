@@ -813,6 +813,7 @@
             "openapi": "https://raw.githubusercontent.com/ngrok/ngrok-openapi/refs/heads/main/ngrok.yaml",
             "pages": [
               "api/index",
+              "api/api-filtering",
               {
                 "group": "Universal Gateway",
                 "pages": [
@@ -928,13 +929,6 @@
                       "api-reference/agentingresses/get",
                       "api-reference/agentingresses/delete",
                       "api-reference/agentingresses/update"
-                    ]
-                  },
-                  {
-                    "group": "Tunnels",
-                    "pages": [
-                      "api-reference/tunnels/list",
-                      "api-reference/tunnels/get"
                     ]
                   },
                   {
